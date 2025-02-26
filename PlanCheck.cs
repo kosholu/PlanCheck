@@ -23,7 +23,7 @@ namespace VMS.TPS
     {
             // TODO : Add here the code that is called when the script is launched from Eclipse.
             Patient patient = context.Patient;
-
+            // bla test
             if (null == patient)
             {
                 MessageBox.Show("No patient selected! Script stops.");
